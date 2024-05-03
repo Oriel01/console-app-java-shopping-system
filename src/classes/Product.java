@@ -81,4 +81,15 @@ public class Product {
     public void setProviderPrice2(double providerPrice2) {
         this.providerPrice2 = providerPrice2;
     }
+
+    // Methods
+
+    @Override
+    public String toString() {
+        return "Code: " + this.productCode +
+                "\nName: " + this.productName +
+                "\nPrice: " + this.productPrice +
+                "\nP1Price: " + this.providerPrice1 +
+                "\nP2Price: " + this.providerPrice2 + "\n";
+    }
 }
