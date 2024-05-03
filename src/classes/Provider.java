@@ -39,4 +39,13 @@ public class Provider {
     public void setProviderType(String providerType) {
         this.providerType = providerType;
     }
+
+    //Methods
+
+    @Override
+    public String toString() {
+        return "Code: " + this.providerCode +
+                "\nName: " + this.providerName +
+                "\nType: " + this.providerType + "\n";
+    }
 }
