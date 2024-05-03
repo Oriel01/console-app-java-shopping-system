@@ -1,7 +1,9 @@
 package classes;
 
-public class Provider {
+import java.util.ArrayList;
 
+public class Provider {
+    public static ArrayList<Provider> providers = new ArrayList<>();
     private int providerCode;
     private String providerName;
     private String providerType;

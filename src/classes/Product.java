@@ -1,6 +1,10 @@
 package classes;
 
+import java.awt.image.AreaAveragingScaleFilter;
+import java.util.ArrayList;
+
 public class Product {
+    public static ArrayList<Product> products = new ArrayList<>();
     private int productCode;
     private String productName;
     private double productPrice;
